@@ -2,8 +2,6 @@
 
 Material for the mini-workshop "The Julia language: Reproducibility infrastructure and project workflows" at Leibniz MMS Days 2025.
 
-## Installation
-
 ## Files in this repository
 ```
 ├── julia-reproducibility-mms25.jl   # Presentation (Pluto notebook)
@@ -15,6 +13,8 @@ Material for the mini-workshop "The Julia language: Reproducibility infrastructu
 │   └── project-skeleton
 └── README.md                       # This readme
 ```
+
+## Installation
 
 - How to install Julia: [https://julialang.org/downloads/](https://julialang.org/downloads/#install_julia)
 - How to install Pluto: [https://plutojl.org/](https://plutojl.org/#install)

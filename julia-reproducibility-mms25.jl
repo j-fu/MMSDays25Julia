@@ -482,7 +482,7 @@ grid=simplexgrid(X,X,X);
 
 # ╔═╡ d744ef4a-cae6-49ed-bbe1-28145ae405ca
 EL.grid([md"""
-Browser based notebooks implemented in Julia and Javascript
+Browser based notebooks in Julia and Javascript
 - __Easy installation__:  installed as a single Julia package on Linux, MacOS, Windows
 - __Reactive__: cell results are automatically recalculated
 - __Version controllable__: no results in the notebook
@@ -568,6 +568,12 @@ EL.grid([md"""
 - [Jupyter notebook support](https://github.com/JuliaLang/IJulia.jl)
 - Integration with [quarto](https://quarto.org/docs/computations/julia.html) for reproducible publications
 - [Draft repo](https://github.com/MilesCranmer/showyourwork_julia_example) for integration with [showyourwork](https://github.com/showyourwork/showyourwork)
+
+__Alternative/extended takes__:
+
+- Modern Julia Workflows: [https://modernjuliaworkflows.org/](https://modernjuliaworkflows.org/)
+- Marginalia/Julia: [ https://j-fu.github.io/marginalia](https://j-fu.github.io/marginalia/julia/project-workflow/)
+
 """ EL.vbox([
 	Resource("https://raw.githubusercontent.com/JuliaDynamics/JuliaDynamics/master/videos/drwatson/DrWatson-banner.png",:width=>200),
 	EL.hbox([
@@ -786,8 +792,10 @@ The Julia language: Reproducibility infrastructure and project workflows
 <br>
 <font size=+2>
 Jürgen Fuhrmann<br>
-WIAS Berlin
+WIAS Berlin<br>
 </font>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+
 </div>
 """,
 	hsep(),
